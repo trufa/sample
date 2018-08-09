@@ -7,34 +7,13 @@
 .background-secondary {
   background-color: #3A76D3; }
 
-.first-section-info {
+.negative-mt-first-section {
   margin-top: -200px; }
 
-@media (max-width: 575.98px) {
-  .hand-image {
-    width: 133%;
-    bottom: 0;
-    left: -150px; } }
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .hand-image {
-    width: 140%;
-    bottom: 0;
-    left: -274px; } }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .hand-image {
-    width: 133%;
-    bottom: 0;
-    left: -300px; } }
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .hand-image {
-    width: 128%;
-    bottom: 0;
-    left: -328px; } }
-@media (min-width: 1200px) {
-  .hand-image {
-    width: 109%;
-    max-width: 1260px;
-    bottom: 0;
-    left: -215px; } }
+.negative-mt-first-sidebar {
+  margin-top: -425px; }
+
+.sidebar-item {
+  margin-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */
