@@ -2,18 +2,24 @@
   height: 100vh; }
 
 .background-primary {
-  background-color: #7BD4B1; }
+  background-color: #7BD4B1;
+  color: #203554; }
 
 .background-secondary {
-  background-color: #3A76D3; }
+  background-color: #3A76D3;
+  color: #ffffff; }
 
-.negative-mt-first-section {
-  margin-top: -200px; }
-
-.negative-mt-first-sidebar {
-  margin-top: -425px; }
+.background-secondary-darker {
+  background-color: #2E64B9;
+  color: #ffffff; }
 
 .sidebar-item {
-  margin-top: 15px; }
+  margin-bottom: 15px; }
+
+.mt-first-section {
+  margin-top: 15vh; }
+
+.logo-blue {
+  width: 150px; }
 
 /*# sourceMappingURL=style.css.map */
