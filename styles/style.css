@@ -73,4 +73,11 @@ input[type=radio]:checked + label {
   min-height: 23px;
   padding-left: 50px; }
 
+.nav-pills .nav-link {
+  border-radius: 0;
+  color: white; }
+  .nav-pills .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid white; }
+
 /*# sourceMappingURL=style.css.map */

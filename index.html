@@ -12,20 +12,22 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<div class="container-fluid background-primary">
+<div class="container-fluid background-primary" id="home">
     <div class="row">
         <div class="d-none col-2 text-center full-height d-md-flex flex-column position-relative">
-            <ul class="list-unstyled mt-first-section">
-                <li class="sidebar-item">
-                    <a href="#" class="scrollable" data-target="#connecting-dots">Connecting Dots</a>
-                </li>
-                <li class="sidebar-item">What is iPaladin?</li>
-                <li class="sidebar-item">Protecting Dots</li>
-                <li class="sidebar-item">Support</li>
-                <li class="sidebar-item">Blog</li>
-                <li class="sidebar-item">Contact Us</li>
-            </ul>
-            <a href="#" class="btn btn-info sign-in">SIGN IN</a>
+            <div class="mt-first-section">
+                <ul class="list-unstyled">
+                    <li class="sidebar-item">
+                        <a href="#" class="scrollable" data-target="#connecting-dots">Connecting Dots</a>
+                    </li>
+                    <li class="sidebar-item">What is iPaladin?</li>
+                    <li class="sidebar-item">Protecting Dots</li>
+                    <li class="sidebar-item">Support</li>
+                    <li class="sidebar-item">Blog</li>
+                    <li class="sidebar-item">Contact Us</li>
+                </ul>
+                <a href="#" class="btn btn-info sign-in">SIGN IN</a>
+            </div>
         </div>
         <div class="col-12 col-md-10 text-center full-height d-flex flex-column position-relative">
             <div class="mt-first-section">
@@ -64,7 +66,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ea enim est excepturi magnam provident quidem voluptate voluptates? Ad alias assumenda dolore ducimus earum fugiat hic itaque omnis ut vero!</p>
                     </div>
                     <div class="col-6">
-                        <img src="http://via.placeholder.com/323x382" alt="connect the dots image animation">
+                        <img class="img-fluid" src="http://via.placeholder.com/323x382" alt="connect the dots image animation">
                     </div>
                 </div>
             </div>
@@ -91,7 +93,7 @@
             <div class="mt-first-section">
                 <div class="row">
                     <div class="col-12">
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <ul class="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-problem" role="tab" aria-controls="pills-problem" aria-selected="true">
                                     Problem
@@ -118,7 +120,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis quia tempore ut. Consectetur corporis distinctio, facilis inventore quaerat recusandae. Autem earum incidunt modi, natus non placeat quidem soluta ullam!</p>
                                     </div>
                                     <div class="col-6">
-                                        <img src="http://via.placeholder.com/323x382" alt="what is the problem">
+                                        <img class="img-fluid" src="http://via.placeholder.com/323x382" alt="what is the problem">
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +133,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis quia tempore ut. Consectetur corporis distinctio, facilis inventore quaerat recusandae. Autem earum incidunt modi, natus non placeat quidem soluta ullam!</p>
                                     </div>
                                     <div class="col-6">
-                                        <img src="http://via.placeholder.com/323x382" alt="what is the problem">
+                                        <img class="img-fluid" src="http://via.placeholder.com/323x382" alt="what is the problem">
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +146,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis quia tempore ut. Consectetur corporis distinctio, facilis inventore quaerat recusandae. Autem earum incidunt modi, natus non placeat quidem soluta ullam!</p>
                                     </div>
                                     <div class="col-6">
-                                        <img src="http://via.placeholder.com/323x382" alt="what is the problem">
+                                        <img class="img-fluid" src="http://via.placeholder.com/323x382" alt="what is the problem">
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +177,7 @@
             <div class="mt-first-section">
                 <div class="row">
                     <div class="col-12">
-                        <ul class="nav nav-pills mb-3" id="pills-video-tab" role="tablist">
+                        <ul class="nav nav-pills mb-3 d-flex justify-content-between" id="pills-video-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-cybersecurity-tab" data-toggle="pill" href="#pills-cybersecurit" role="tab" aria-controls="pills-cybersecurit" aria-selected="true">
                                     Cybersecurity
