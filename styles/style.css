@@ -1,5 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+h1.main-title {
+  font-size: 4.8em; }
+
+h2.secondary-title {
+  font-size: 3.6em;
+  text-align: left; }
+
+.subhead {
+  font-size: 2em; }
+
+.container-fluid {
+  font-size: 1.25rem;
+  -webkit-font-smoothing: antialiased; }
+
 .full-height {
-  height: 100vh; }
+  min-height: 100vh; }
 
 .background-primary {
   background-color: #7BD4B1;
@@ -21,7 +43,7 @@
   margin-bottom: 15px; }
 
 .mt-first-section {
-  margin-top: 15vh; }
+  margin-top: 6.4em; }
 
 .logo-blue {
   width: 150px; }
@@ -49,16 +71,25 @@ input.custom-input::placeholder {
   color: #203554;
   border: none;
   border-radius: 12px;
-  font-weight: bold; }
+  height: 96px;
+  font-size: 2em;
+  line-height: 2em; }
 
 a.sign-in, a.sign-in:hover {
   background-color: transparent;
   border-radius: 12px;
   color: #203554;
-  border: 1px solid #2B4F89; }
+  border: 1px solid #2B4F89;
+  height: 96px;
+  font-size: 2.1em;
+  line-height: 2.1em; }
   a.sign-in.inverted, a.sign-in:hover.inverted {
     color: #ffffff;
     border: 1px solid white; }
+
+.hand {
+  width: 100vw;
+  margin-left: -15px; }
 
 input[type=radio] {
   display: none; }
